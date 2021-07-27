@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Авторизация пользователей</title>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <link href="vxod.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<form action="" method="post">
+    <div class="row">
+        <label for="login">Ваш логин:</label>
+        <input type="email" name="usermail" placeholder="yourname@email.com" required />
+	</div>
+    <div class="row">
+        <label for="password">Ваш пароль:</label>
+        <input type="password" pattern = "[0-9a-zA-Z]{6,32}" name="password" placeholder="password" required />
+    </div>
+    <div class="row">
+        <input type="submit" name="submit" id="btn-submit" value="Войти" />
+    </div>
+</form>
+</body>
+</html>
